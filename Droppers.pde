@@ -1,10 +1,13 @@
 import processing.sound.*;
 
   TGFramework game;
+  
+void settings() {
+  size(800, 600, P2D);
+}
 
 void setup()
 {
-  size(800, 600, P2D);
   noSmooth();
   noCursor();
   frameRate(60);
